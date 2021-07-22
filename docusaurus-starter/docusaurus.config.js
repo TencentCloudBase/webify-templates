@@ -12,6 +12,10 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'cn',
+    locales: ['cn', 'en'],
+  },
   themeConfig: {
     navbar: {
       title: 'My Site',
