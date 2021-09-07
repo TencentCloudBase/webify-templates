@@ -4,7 +4,7 @@ import type { Params, ListItemDataType } from './data';
 export async function queryFakeList(
   params: Params,
 ): Promise<{ data: { list: ListItemDataType[] } }> {
-  return request('/api/fake_list', {
+  return request('https://proapi.azurewebsites.net/api/fake_list', {
     params,
   });
 }

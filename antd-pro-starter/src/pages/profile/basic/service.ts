@@ -7,5 +7,5 @@ export async function queryBasicProfile(): Promise<{
     basicGoods: BasicGood[];
   };
 }> {
-  return request('/api/profile/basic');
+  return request('https://proapi.azurewebsites.net/api/profile/basic');
 }

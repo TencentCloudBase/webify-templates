@@ -4,7 +4,7 @@ import type { CardListItemDataType } from './data.d';
 export async function queryFakeList(params: {
   count: number;
 }): Promise<{ data: { list: CardListItemDataType[] } }> {
-  return request('/api/card_fake_list', {
+  return request('https://proapi.azurewebsites.net/api/card_fake_list', {
     params,
   });
 }
