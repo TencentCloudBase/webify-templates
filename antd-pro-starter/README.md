@@ -4,7 +4,7 @@
 
 ### 注意
 
-此模板中使用了 Antd 官方的后端示例服务（https://proapi.azurewebsites.net），开发者可以根据需要改为自己的后端服务。
+此模板中使用了 Antd 官方的后端示例服务 https://proapi.azurewebsites.net ，开发者可以根据需要改为自己的后端服务。
 
 ### 安装依赖
 
